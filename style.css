@@ -1,0 +1,44 @@
+body {
+  font-size: 3rem;
+  background-color: #fafafa;
+}
+h1 {
+  color: #000;
+}
+h2 {
+  color: #000;
+}
+.contenedor {
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #dc3545;
+}
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 5px;
+}
+.x {
+  background-color: rgba(137, 43, 226, 0.192);
+  color: #000;
+}
+.o {
+  background-color: rgba(128, 255, 0, 0.267);
+  color: #000;
+}
